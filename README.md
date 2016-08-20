@@ -1,20 +1,20 @@
 Тестовое задание welltory
 
 сначала запускаем
-**npm install
+**npm install**
 ждем пока все загрузится
 
 запускаем приложение
-**npm start
+**npm start**
 
 переходим по адресу 
-**http://localhost:3000/login
+**http://localhost:3000/login**
 данные для входа 
-**testfront@welltory.com
-**testwell
+**testfront@welltory.com**
+**testwell**
 
 вас перебросит на 
-**http://localhost:3000/measures
+**http://localhost:3000/measures**
 
 если до ввода логина перейти на http://localhost:3000/measures вас перебросит обратно
 с выходом не разобрался, если удалять csrftoken из кукисов вы все равно отдаете мне пользователя
@@ -22,7 +22,7 @@
 
 с тестами разобраться так и на успел
 можете запустить
-**npm test
+**npm test**
 только перед этим поменять в .babelrc строчку на 
 {
   "presets": [
