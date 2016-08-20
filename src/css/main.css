@@ -1,0 +1,76 @@
+body {
+  background: #FAFAFA; }
+
+.loginFormParent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 0; }
+  .loginFormParent:before {
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    content: ''; }
+  .loginFormParent .loginForm {
+    width: 300px;
+    display: inline-block;
+    white-space: normal;
+    vertical-align: middle;
+    text-align: left; }
+
+.welltoryLogo {
+  width: 100px;
+  margin: auto;
+  display: block;
+  padding: 10px; }
+
+.btn-welltory {
+  display: block;
+  margin: auto;
+  background: #ffffff;
+  border: 1px solid #e64a19;
+  color: #e64a19;
+  border-radius: 1000px;
+  padding: 6px 40px;
+  outline: none; }
+  .btn-welltory:hover, .btn-welltory:focus, .btn-welltory:active {
+    border: 1px solid #ffffff;
+    background: #e64a19;
+    color: #ffffff;
+    outline: none; }
+
+@media screen and (max-width: 480px) {
+  .loginForm {
+    background: #FAFAFA;
+    width: 100% !important;
+    margin: auto;
+    border: 0;
+    box-shadow: none; } }
+.layout {
+  padding: 10px; }
+
+.nav-bar-fix {
+  padding: 7px 10px; }
+
+.sortIcon {
+  color: black;
+  text-decoration: none; }
+  .sortIcon [class^="flaticon-"]:before, .sortIcon [class*=" flaticon-"]:before,
+  .sortIcon [class^="flaticon-"]:after, .sortIcon [class*=" flaticon-"]:after {
+    font-size: 12px;
+    margin-left: 10px; }
+  .sortIcon:active, .sortIcon:focus, .sortIcon:hover {
+    color: black;
+    text-decoration: none; }
+
+.fullSize {
+  text-align: center;
+  width: 100%;
+  height: 100%; }
+
+/*# sourceMappingURL=main.css.map */
