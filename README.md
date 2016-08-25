@@ -7,14 +7,17 @@
 запускаем приложение
 **npm start**
 
+добавляем в файлик hosts строчку
+127.0.0.1 welltory.com
+
 переходим по адресу 
-**http://localhost:3000/login**
+**http://welltory.com:3000/login**
 данные для входа 
 **testfront@welltory.com**
 **testwell**
 
 вас перебросит на 
-**http://localhost:3000/measures**
+**http://welltory.com:3000/measures**
 
 если до ввода логина перейти на http://localhost:3000/measures вас перебросит обратно
 с выходом не разобрался, если удалять csrftoken из кукисов вы все равно отдаете мне пользователя
